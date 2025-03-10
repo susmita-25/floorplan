@@ -168,3 +168,7 @@ h1 {
   border: 1px solid darkred;
   margin: 5px;
 }
+
+.canvas-container{
+  width: 100% !important;
+}

@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#floorplan div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#floorplan {
+  height: 80vmin;
+  width: 80vmin;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+
+.kitchen {
+  background-color: purple;
+  grid-column: 1 / 3;
+  grid-row: 2 / 2;
+  height: 200px;
+}
+
+.living-room {
+  background-color: tan;
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  height: 200px;
+}
+
+.bed-3 {
+  background-color: lightgreen;
+  grid-column: 3 / 6;
+  grid-row: 3 / 3;
+  height: 100px;
+}
+
+.f-bath {
+  background-color: yellow;
+  grid-column: 4 / 6;
+  grid-row: 2;
+  height: 75px;
+}
+
+.h-bath {
+  background-color: orange;
+  grid-column: 2 / 3;
+  grid-row: 3;
+  height: 100px;
+}
+
+.bed-2 {
+  background-color: lightblue;
+  grid-column: 1;
+  grid-row: 3 / 3;
+  width: 165px;
+  height: 100px;
+}
+
+.bed-1 {
+  background-color: pink;
+  grid-column: 3 / 6;
+  grid-row: 2 / 3;
+  width: 160px;
+  height: 200px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+#floorPlan {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-rows: 2fr 1fr;
+  align-content: stretch;
+}
+
+#row-1 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+#row-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.bedroom {
+  background-color: #3e7086;
+}
+
+.bath {
+  background-color: #76863e;
+}
+
+#bath-Full {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#livingRoom {
+  background-color: #c4ac87;
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+#kitchen {
+  background-color: #e7a951;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 5fr;
+  grid-row: 1 / 3;
+}
+
+#oven {
+  background-color: #bb5029;
+  grid-row: 1;
+}
+
+#sink {
+  background-color: #8b5824;
+  grid-row: 1;
+}
+
+.window {
+  width: 50px;
+  height: 10px;
+  background-color: lightblue;
+  text-align: center;
+  border: 1px solid blue;
+  margin: 5px;
+}
+
+.door {
+  width: 40px;
+  height: 20px;
+  background-color: brown;
+  text-align: center;
+  border: 1px solid darkred;
+  margin: 5px;
+}
